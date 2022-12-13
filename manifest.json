@@ -1,0 +1,21 @@
+{
+    "name": "TikTok Video Grabber",
+    "description": "Grabs TikTok video URLs",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "activeTab",
+        "background",
+        "clipboardWrite",
+        "scripting"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_icon": {
+            "16": "icon.png"
+        },
+        "default_title": "Grab video"
+    }
+}
